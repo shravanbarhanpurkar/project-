@@ -1,0 +1,64 @@
+ul {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
+  
+  ul li {
+    list-style: none;
+  }
+  
+  ul li a {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+    font-size: 0.875em;
+    text-decoration: none;
+    padding: 1em;
+    white-space: nowrap;
+    letter-spacing: 1px;
+  }
+  
+  ul li a:hover {
+    border-bottom: 3px solid #fff;
+  }
+  
+  header {
+    padding: 20px;
+    height: 100vh;
+    background: url("images.jpeg") no-repeat  center;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .header .content {
+    position: relative;
+    top: 50%;
+    text-align: center;
+  }
+  
+  
+  
+  .flex1 {
+    display: flex;
+    color: white;
+    padding: 100px 150px 150px 100px;
+    position: center;
+     background: linear-gradient(to bottom, #16222a, #4e4376);
+  }
+  
+  .flex {
+    display: flex;
+    color: white;
+    padding-left: 3%;
+    padding-right: 3%;
+    position: center;
+  }
+  
+  
+  .flex--vertical {
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
